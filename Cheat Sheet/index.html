@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HTML SECTION -->
+    <h1>HTML Review</h1>
+
+    <section class="tables">
+        <h2>Table Tags and Attributes</h2>
+        <h3>Table Tags</h3>
+        <table>
+            <thead>
+                <td>Tag</td>
+                <td>Name</td>
+                <td>Description</td>
+            </thead>
+            <tr>
+                <td>&lt;table&gt;</td>
+                <td>Table</td>
+                <td>Wrapper element for all HTML tables.</td>
+            </tr>
+            <tr>
+                <td>&lt;thead&gt;</td>
+                <td>Table Head</td>
+                <td>Set of rows defining the column headers in the table.</td>
+            </tr>
+            <tr>
+                <td>&lt;tbody&gt;</td>
+                <td>Table Body</td>
+                <td>Set of rows containingactual table data.</td>
+            </tr>
+            <tr>
+                <td>&lt;tr&gt;</td>
+                <td>Table Row</td>
+                <td>Table row container.</td>
+            </tr>
+            <tr>
+                <td>&lt;td&gt;</td>
+                <td>Table Data</td>
+                <td>Table row data or information.</td>
+            </tr>
+            <tr>
+                <td>&lt;tfoot&gt;</td>
+                <td>Table Foot</td>
+                <td>Set of rows defining the footer in a table.</td>
+            </tr>
+        </table>
+        <br>
+        <h3>Attributes</h3>
+        <table>
+            <thead>
+                <td>Attribute</td>
+                <td>Name</td>
+                <td>Description</td>
+            </thead>
+            <tr>
+                <td>coslpan</td>
+                <td>Column Span</td>
+                <td>Defines aount of columns a td element needs to span.</td>
+            </tr>
+            <tr>
+                <td>rowspan</td>
+                <td>Row Span</td>
+                <td>Defines amount of rows the td element needs to span.</td>
+            </tr>
+        </table>
+        
+    </section>
+    <br>
+
+    <section class="forms">
+        <h3>&lt;form&gt;</h3>
+        <p>The HTML &lt;form&gt; element is used to collect and send information to an external source.</p>
+        <br>
+
+        <h3>&lt;textarea&gt;</h3>
+        <p>The textarea element is used when creating a text-box for multi-line input (e.g. a comment section). The element supports the rows and cols attributes which determine the height and width, respectively, of the element.</p>
+        <br>
+
+        <h3>&lt;input&gt;</h3>
+        <p>The HTML &lt;input&gt; element is used to render a variety of input fields on a webpage including text fields, checkboxes, buttons, etc. &lt;input&gt; element have a type attribute that determines how it gets rendered to a page.</p>
+        <br>
+
+        <h3>&lt;select&gt;</h3>
+        <p>The HTML &lt;select&gt; element can be used to create a dropdown list. A list of choices for the dropdown list can be created using one or more &lt;option&gt; elements. By default, only one &lt;option&gt; can be selected at a time.</p>
+        <br>
+
+        <h3>&lt;datalist&gt;</h3>
+        <p>When using an HTML input, a basic search/autocomplete functionality can be achieved by pairing an &lt;input&gt; with a &lt;datalist&gt;. To pair a &lt;input&gt; with a &lt;datalist&gt; the &lt;datalist&gt;'s list value must match the value of the id of the &lt;datalist&gt;. The datalist element is used to store a list of &lt;otions&gt;.</p>
+        <br>
+
+        <h3>&lt;label&gt;</h3>
+        <p>The HTML &lt;label&gt; element provides identification for a specific &lt;input&gt; based on matching values of the &lt;input&gt;‘s id attribute and the &lt;label&gt;‘s for attribute. By default, clicking on the &lt;label&gt; will focus the field of the related &lt;input&gt;.</p>
+        <br>
+
+        <h3>Input Types</h3>
+        <p>&lt;input&gt; element is used to render input fields including text fields, checkboxes, buttons, etc. &lt;input&gt; element has type attributes that determine how it's rendered to a page.</p>
+        <ul>
+            <li><strong>checkbox: </strong>When using an HTML input element, the type="checkbox" attribute will render a single checkbox item. To create a group of checkboxes related to the same topic, they should all use the same name attribute. </li>
+            <li><strong>number: </strong>HTML input elements can be of type number. These input fields allow the user to enter only numbers and a few special characters inside the field.</li>
+            <li><strong>range: </strong>The range slider will act as a selector between a minimum and a maximum value.</li>
+            <li><strong>text: </strong>This renders a single row input field that users can type text inside.</li>
+            <li><strong>radio: </strong>Multiple radio buttons of a related topic are given the same name attribute value.</li>
+            <li><strong>password: </strong>The HTML &lt;input&gt; element can have the attribute type="password" that renders a single row input field which allows the user to type censored text inside the field.</li>
+            <li><strong>submittable: </strong>HTML &lt;input&gt; elements can have a type attribute set to submit, by adding type="submit". With this attribute included, a submit button will be rendered and, by default, will submit the &lt;form&gt; and execute its action.</li>
+        </ul>
+        
+        <br>
+
+        <h3>Other Attributes</h3>
+        <ul>
+            <li><strong>required: </strong>In HTML, input fields have an attribute called required which specifies that the field must include a value.</li>
+            <li><strong>max: </strong>HTML &lt;input&gt;'s of type number have an attribute called max that specifies the maximum value for the input field.</li>
+            <li><strong>maxlength: </strong>In HTML, input fields with type text have an attribute called maxlength that specifies the maximum number of characters that can be entered into the field.</li>
+            <li><strong>pattern: </strong>In a text input element, the pattern attribute uses a regular expression to match against (or validate) the value of the &lt;input&gt;, when the form is submitted.</li>
+            <li><strong>minlength: </strong>In HTML, an input field of type text has an attribute that supports minimum length validation.</li>
+            <li><strong>min: </strong>In HTML, input fields with type number have an attribute called min that specifies the minimum value that can be entered into the field.</li>
+            <li><strong>name: </strong>In order for a form to send data, it needs to be able to put it into key-value pairs. This is achieved by setting the name attribute of the input element.</li>
+        </ul>
+    </section>
+    <br>
+
+    <!-- CSS SECTION -->
+    <h1>CSS Review</h1>
+    <section class="boxmodel">
+        <h2>Box Model</h2>
+        <table>
+            <thead>
+                <td>Name</td>
+                <td>Tag</td>
+                <td>Use</td>
+            </thead>
+            <tr>
+                <td>Magin Collapse</td>
+                <td id="keyword">margin</td>
+                <td>Can be used to collapse only vertical margins and conbine into a single margin.</td>
+            </tr>
+            <tr>
+                <td>Overflow</td>
+                <td id="keyword">overflow</td>
+                <td>Used to handle problems like a content being to large for its container.</td>
+            </tr>
+            <tr>
+                <td>Height and Width</td>
+                <td id="keyword">width, height, min-width, max-width, min-height, max-height</td>
+                <td>These keywords are used to set maximums and minimums of an element's box.</td>
+            </tr>
+            <tr>
+                <td>Visibility</td>
+                <td id="keyword">visbility</td>
+                <td>To render hidden objects invisible to the user, without removing them from the page.</td>
+            </tr>
+            <tr>
+                <td>Box-sizing</td>
+                <td id="keyword">box-sizing</td>
+                <td>The property box-sizing controls which aspect of the box is determined by the height and width properties.</td>
+            </tr>
+
+        </table>
+    </section>
+    <br>
+</body>
+</html>

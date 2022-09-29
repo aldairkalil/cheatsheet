@@ -1,0 +1,29 @@
+body {
+    background-color: beige;
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th {
+    background-color: brown;
+}
+
+tr, td {
+    background-color: rgb(219, 217, 217)
+}
+
+#keyword {
+    font-size: 14px;
+    font-weight: lighter;
+    font-style: italic;
+}
